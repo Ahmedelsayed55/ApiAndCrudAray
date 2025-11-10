@@ -17,7 +17,7 @@ const Home = () => {
     
   return (
     <div>
-        <div className="container grid grid-cols-4 gap-4 mx-auto p-10">
+        <div className="container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto p-10">
             {
                 productsData.map((product)=>{
                     return(
